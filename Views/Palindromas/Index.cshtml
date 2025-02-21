@@ -1,0 +1,82 @@
+@{
+    ViewData["Title"] = "Palíndromas";
+}
+
+<div class="teste-container">
+    <div class="text-title"><strong>Possivelmente Palíndromas</strong></div>
+    <div class="text">
+        Observe as seguintes strings abaixo:<br>
+
+        "arara"<br>
+        "osso"<br>
+        "socorram-me, subi no onibus em marrocos"<br>
+
+        Agora leia essas strings de trás para frente. Você pode ler elas independentemente do sentido da leitura!<br>
+
+        Palavras e frases assim são chamadas de palíndromas.<br>
+
+        Agora observe as seguintes strings:<br>
+        "parar"<br>
+        "temem"<br>
+        "technation"<br>
+
+        "parar" e "temem" são chamadas de palavras potencialmente palíndromas<br>
+        Isso ocorre porque você pode rearranjar/permutar as letras dessas palavras de forma que elas se tornem<br>
+        palíndromas<br>
+
+        "parar" -> "rapar"<br>
+        "temem" -> "metem"<br>
+
+        Enquanto isso, "technation" nunca será uma palavra palíndroma, independentemente de como você reorganizar as
+        letras dela (se duvida de mim, pode tentar!)<br><br>
+
+        <strong>Observações adicionais:</strong><br>
+        1) Não é necessário que as strings sejam palavras que existem na vida real<br>
+        2) Considere a string vazia como potencialmente palíndroma<br>
+
+
+        <strong>Descrição do formato da função solução:</strong><br>
+        1) Recebe como parâmetro uma string<br>
+        2) Retorne True, caso a palavra seja potencialmente palíndroma. Retorne False, caso contrário<br><br>
+
+
+        <strong>Exemplos:</strong><br>
+        Exemplo 1:<br>
+        Entrada: palavra = "abbac"<br>
+        Saída: True<br>
+
+        Exemplo 2:<br>
+        Entrada: palavra = "abba"<br>
+        Saída: True<br>
+
+        Exemplo 3:<br>
+        Entrada: palavra = "abbacd"<br>
+        Saída: False<br>
+
+    </div>
+
+    <div class="card-teste">
+        <div class="card-body">
+            <div class="card-text">
+                <strong>Palavra:</strong><br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Digite uma palavra" id="palavra"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                        onclick="verificarPalindromo()">Iniciar</button>
+                </div>
+            </div>
+            <div class="card-text">
+                <strong>Saída:</strong><br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Aguarde a saída" id="saida"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@section Scripts {
+    <script src="~/js/palindromas.js"></script>
+}

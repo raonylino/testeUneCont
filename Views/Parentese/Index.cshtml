@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Parênteses";
+}
+
+<div class="teste-container">
+    <div class="text-title"><strong>Parênteses Balanceados</strong></div>
+    <div class="text">
+        Uma string que consiste em parênteses esquerdo e direito, "(" e ")", é dada e pede-se que você equilibre os
+        parênteses inserindo parênteses conforme necessário. Determine o número mínimo de caracteres que devem ser
+        inseridos.<br><br>
+
+
+        <strong>Descrição do formato da função solução:</strong><br>
+        1) Recebe como parâmetro uma string com parênteses.<br>
+        2) Retorne um número inteiro que deve ser o número mínimo de caracteres a serem adicionados na string.<br><br>
+
+
+        <strong>Exemplos:</strong><br>
+        Exemplo 1:<br>
+        Entrada: palavra="()))"<br>
+        Saída: 2<br>
+
+        Exemplo 2:<br>
+        Entrada: palavra="()()"<br>
+        Saída: 0<br>
+
+        Exemplo 3:<br>
+        Entrada: palavra="())("<br>
+        Saída: 2<br>
+    </div>
+
+    <div class="card-teste">
+        <div class="card-body">
+            <div class="card-text">
+                <strong>Entrada:</strong><br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Digite apenas os parenteses" id="entrada"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                        onclick="parenteses()">Inicar</button>
+                </div>
+            </div>
+            <div class="card-text">
+                <strong>Saída:</strong><br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Aguarde a saída" id="saida"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section Scripts {
+        <script src="~/js/parenteses.js"></script>
+}

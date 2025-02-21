@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Zelador";
+}
+
+<div class="teste-container">
+    <div class="text-title"><strong>Problema do Zelador Eficiente</strong></div>
+    <div class="text">
+
+        O zelador de uma faculdade é extremamente eficiente. Ao final de cada dia, todo o lixo da escola está em sacos
+        plásticos com peso entre 1,01 e 3,00 quilos. Então, todas as sacolas plásticas são levadas para as lixeiras do
+        lado de fora. Uma viagem é descrita como selecionar um número de sacolas que juntas não pesam mais de 3,00
+        quilos, despejá-las na lixeira externa e retornar à faculdade. Dado o número de sacolas plásticas n e o peso de
+        cada sacola, determine o número mínimo de viagens que o zelador deve fazer.<br><br>
+
+
+        <strong>Descrição do formato da função solução:</strong><br>
+        1) Recebe como parâmetro um vetor com o peso das sacolas a serem levadas.<br>
+        2) Retorne a quantidade de viagens que o zelador deve fazer.<br><br>
+
+
+        <strong>Exemplos:</strong><br>
+        Exemplo 1:<br>
+        Entrada: pesos = [1.01, 1.01, 1.01, 1.4]<br>
+        Saída: 2<br>
+
+        Exemplo 2:<br>
+        Entrada: pesos = [1.01, 1.993, 1.32, 1.7, 1.8]
+        Saída: 4<br>
+
+        Exemplo 3:<br>
+        Entrada: pesos = [1.01, 1.99, 2.5, 1.5, 1.01]<br>
+        Saída: 3<br>
+        <strong> Explicação:</strong> O zelador consegue levar todas as sacolas plásticas em 3 viagens:<br> [1,01 + 1,99
+        , 2,5, 1,5 + 1,01].<br>
+
+
+    </div>
+
+    <div class="card-teste">
+        <div class="card-body">
+            <div class="card-text">
+                <strong>Pesos:</strong><br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Digite os pesos separados por vírgula"
+                        id="pesos" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                        onclick="calcularViagens()">Iniciar</button>
+                </div>
+            </div>
+            <div class="card-text">
+                <strong>Saída:</strong><br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Aguarde a saída" id="saida"
+                        aria-label="Recipient's username" aria-describedby="button-addon2" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/zelador.js"></script>
+}
