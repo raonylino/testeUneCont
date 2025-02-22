@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+TfJwpQuJ+P48ng2Qu8R8XRWT+IuJA9o39UWukiWAyE=",
+  "Hash": "JxxJZZBLd3GIHuyq53/6m/qgMJeGKuxqfozZTxVte5Q=",
   "Source": "UneContTeste",
   "BasePath": "_content/UneContTeste",
   "Mode": "Default",
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o62dfkww1u",
-      "Integrity": "UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o=",
+      "Fingerprint": "7mp37hz4mq",
+      "Integrity": "keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\palindromas.js"
@@ -1878,6 +1878,51 @@
       ]
     },
     {
+      "Route": "js/palindromas.7mp37hz4mq.js",
+      "AssetFile": "C:\\Users\\chris\\OneDrive\\Área de Trabalho\\Nova pasta\\UneContTeste\\UneContTeste\\wwwroot\\js\\palindromas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 15:47:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mp37hz4mq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/palindromas.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk="
+        }
+      ]
+    },
+    {
       "Route": "js/palindromas.js",
       "AssetFile": "C:\\Users\\chris\\OneDrive\\Área de Trabalho\\Nova pasta\\UneContTeste\\UneContTeste\\wwwroot\\js\\palindromas.js",
       "Selectors": [],
@@ -1888,7 +1933,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "744"
         },
         {
           "Name": "Content-Type",
@@ -1896,11 +1941,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o=\""
+          "Value": "\"keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 15:45:34 GMT"
+          "Value": "Fri, 21 Feb 2025 15:47:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1910,52 +1955,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o="
-        }
-      ]
-    },
-    {
-      "Route": "js/palindromas.o62dfkww1u.js",
-      "AssetFile": "C:\\Users\\chris\\OneDrive\\Área de Trabalho\\Nova pasta\\UneContTeste\\UneContTeste\\wwwroot\\js\\palindromas.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "746"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 15:45:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o62dfkww1u"
-        },
-        {
-          "Name": "label",
-          "Value": "js/palindromas.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o="
+          "Value": "sha256-keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk="
         }
       ]
     },

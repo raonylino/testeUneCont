@@ -53,6 +53,16 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.car-teste:hover {
+  background-color: #ff660033;
+  color: #258cfb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(240, 138, 5, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
 .row-teste {
   display: flex;
   flex-direction: row;

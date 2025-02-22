@@ -31,3 +31,4 @@ C:\Users\chris\OneDrive\Área de Trabalho\Nova pasta\UneContTeste\UneContTeste\o
 C:\Users\chris\OneDrive\Área de Trabalho\Nova pasta\UneContTeste\UneContTeste\obj\Debug\net8.0\UneContTeste.pdb
 C:\Users\chris\OneDrive\Área de Trabalho\Nova pasta\UneContTeste\UneContTeste\obj\Debug\net8.0\UneContTeste.genruntimeconfig.cache
 C:\Users\chris\OneDrive\Área de Trabalho\Nova pasta\UneContTeste\UneContTeste\obj\Debug\net8.0\ref\UneContTeste.dll
+C:\Users\chris\OneDrive\Área de Trabalho\Nova pasta\UneContTeste\UneContTeste\obj\Debug\net8.0\UneContTeste.sourcelink.json

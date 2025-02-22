@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o62dfkww1u</Fingerprint>
-      <Integrity>UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o=</Integrity>
+      <Fingerprint>7mp37hz4mq</Fingerprint>
+      <Integrity>keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\palindromas.js'))</OriginalItemSpec>

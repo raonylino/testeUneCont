@@ -495,6 +495,51 @@
       ]
     },
     {
+      "Route": "js/palindromas.7mp37hz4mq.js",
+      "AssetFile": "js/palindromas.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 15:47:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mp37hz4mq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk="
+        },
+        {
+          "Name": "label",
+          "Value": "js/palindromas.js"
+        }
+      ]
+    },
+    {
       "Route": "js/palindromas.js",
       "AssetFile": "js/palindromas.js",
       "Selectors": [],
@@ -509,7 +554,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "744"
         },
         {
           "Name": "Content-Type",
@@ -517,62 +562,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o=\""
+          "Value": "\"keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 15:45:34 GMT"
+          "Value": "Fri, 21 Feb 2025 15:47:23 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o="
-        }
-      ]
-    },
-    {
-      "Route": "js/palindromas.o62dfkww1u.js",
-      "AssetFile": "js/palindromas.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "746"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 21 Feb 2025 15:45:34 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o62dfkww1u"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF+o="
-        },
-        {
-          "Name": "label",
-          "Value": "js/palindromas.js"
+          "Value": "sha256-keA+C3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk="
         }
       ]
     },

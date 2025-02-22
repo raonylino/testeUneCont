@@ -60,17 +60,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k2a9bdv22r"},{"Name":"integrity","Value":"sha256-PEo4\u002BzL3u6xgdHcrtZNfpazwoucnzrR3b2UjWFn1rC4="},{"Name":"label","Value":"_content/UneContTeste/img/unecont_logo.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10726"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PEo4\u002BzL3u6xgdHcrtZNfpazwoucnzrR3b2UjWFn1rC4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 12:50:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UneContTeste/js/palindromas.7mp37hz4mq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\palindromas.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7mp37hz4mq"},{"Name":"integrity","Value":"sha256-keA\u002BC3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk="},{"Name":"label","Value":"_content/UneContTeste/js/palindromas.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"744"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022keA\u002BC3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 15:47:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UneContTeste/js/palindromas.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\palindromas.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF\u002Bo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"746"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF\u002Bo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 15:45:34 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/UneContTeste/js/palindromas.o62dfkww1u.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\palindromas.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o62dfkww1u"},{"Name":"integrity","Value":"sha256-UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF\u002Bo="},{"Name":"label","Value":"_content/UneContTeste/js/palindromas.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"746"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UIsh5KzHpg8qwNo0fmiYbQ7w4LnHkdk2X8bWtZeWF\u002Bo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 15:45:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-keA\u002BC3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"744"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022keA\u002BC3GwWAeY2uSVJigT4rtRBmpOLOFV3i4oSZZxppk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 15:47:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/UneContTeste/js/parenteses.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\parenteses.js'))</AssetFile>
