@@ -20,7 +20,7 @@ function calcularViagens() {
         },
         error: function (xhr, status, error) {
             console.log("Erro:", xhr.responseText);
-            document.getElementById("saida").value = "Erro ao processar!";
+            document.getElementById("saida").value = "Soma não encontrada!";
         }
     });
 }
